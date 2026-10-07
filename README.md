@@ -93,7 +93,7 @@ The application includes high-resolution product and category image assets locat
 ## Installation & Setup Instructions
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/mosengijepther-jpg/WickedChickenApp
+   git clone https://github.com/mosengijepther-jpg/WickedChickenApp.git
    ```
 2. **Open in Android Studio**:
    - Launch Android Studio, select **Open**, and choose the project folder.
