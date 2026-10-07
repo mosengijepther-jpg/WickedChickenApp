@@ -1,8 +1,10 @@
 # 🍗 Wicked Chicken Mobile Application
 
 ## 👥 Student Names
-- **Student Name**: [Your Name / Student Name]
-- **Course / Unit**: IS223 - BBIT Year 2, Semester 2
+- **Student Names**: Jepther MOSENGI, Moyo PAUL & Francisca OAIKE
+- **Course Name**: Business in Information Systems (BBIT) 
+- **Subject Name**: Object-Oriented Programming (IS223) 
+- **Year of Study**: Year 2
 
 ---
 
@@ -51,6 +53,43 @@ This application strictly adheres to Object-Oriented Programming principles:
 
 ---
 
+## 🖼️ Menu Image Assets & Drawable Mapping
+The application includes high-resolution product and category image assets located in `app/src/main/res/drawable/`:
+
+| Product / Category Item | Drawable Asset Filename |
+| :--- | :--- |
+| **App Logo** | `ic_logo.png` |
+| **Chicken Fillet Burger** | `ic_chicken_fillet_burger.jpg` |
+| **Classic Beef Burger** | `ic_classic_beef_burger.jpg` |
+| **Double Beef & Cheese Burger** | `ic_double_beef_cheese_burger.jpg` |
+| **Quick Snack BBQ Pack** | `ic_quick_bbq_pack.jpg` |
+| **1/4 BBQ Pack** | `ic_quater_bbq_pack.jpg` |
+| **1/2 BBQ Pack** | `ic_half_bbq_pack.jpg` |
+| **BBQ & Coleslaw** | `ic_bbq_coleslaw.jpg` |
+| **1/2 BBQ Chicken** | `ic_half_bbq_chicken.jpg` |
+| **Whole BBQ Chicken** | `ic_whole_bbq_chicken.jpg` |
+| **Fried Chicken Piece** | `ic_fried_chicken_piece.jpg` |
+| **Quick Snack Fried Pack** | `ic_quick_snack_fried.jpg` |
+| **Double Fried Pack** | `ic_double_fried_pack.jpg` |
+| **Triple Fried Pack** | `ic_triple_fried_pack.jpg` |
+| **Fried & Coleslaw** | `ic_fried_coleslaw.jpg` |
+| **Seafood Basket** | `ic_seafood_basket.jpg` |
+| **Hot Chips** | `ic_hot_chips.jpg` |
+| **Chicken Nuggets** | `ic_chicken_nuggets.jpg` |
+| **Coleslaw** | `ic_coleslaw.jpg` |
+| **Mixed Vegetables** | `ic_mixed_vegetables.jpg` |
+| **Chicken Gravy** | `ic_chicken_gravy.jpg` |
+| **Assorted Can Drinks** | `ic_assorted_can_drinks.jpg` |
+| **Pure Water 600ml** | `ic_pure_water.jpg` |
+| **Sunquick Juice Cup** | `ic_sunquick.jpg` |
+| **Vita Juice Drinks** | `ic_vita_juice.jpg` |
+| **Slushy Cup** | `ic_slushy_cup.jpg` |
+| **Soft Serve Cone** | `ic_soft_serve_cone.jpg` |
+| **Soft Serve Cone (Sundae)** | `ic_soft_serve_cone_sundae.jpg` |
+| **Extra Toppings** | `ic_toppings.jpg` |
+
+---
+
 ## 🚀 Installation & Setup Instructions
 1. **Clone the Repository**:
    ```bash
@@ -63,11 +102,3 @@ This application strictly adheres to Object-Oriented Programming principles:
 4. **Run the App**:
    - Connect an Android device or start an Emulator (API 24+).
    - Click the **Run** (`▶`) button.
-
----
-
-## 📸 Screenshots
-*(Insert your application screenshots here)*
-- **Dashboard & Categories**: *[Screenshot]*
-- **Product Details & Cart**: *[Screenshot]*
-- **Checkout & Order History**: *[Screenshot]*
