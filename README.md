@@ -1,6 +1,6 @@
-# 🍗 Wicked Chicken Mobile Application
+# Wicked Chicken Mobile Application
 
-## 👥 Student Names
+## Student Names
 - **Student Names**: Jepther MOSENGI, Moyo PAUL & Francisca OAIKE
 - **Course Name**: Business in Information Systems (BBIT) 
 - **Subject Name**: Object-Oriented Programming (IS223) 
@@ -8,12 +8,12 @@
 
 ---
 
-## 📖 Project Description
+## Project Description
 The **Wicked Chicken App** is a fully functional Android mobile application developed for Wicked Chicken fast food. It provides an intuitive, appetizing, and seamless digital ordering platform where customers can explore categorized menu items, view detailed product information and custom imagery, manage their shopping cart, complete checkout, and track past order history with PDF receipt generation and sharing capabilities.
 
 ---
 
-## 🎯 Application Objectives
+## Application Objectives
 - **Digitize Ordering**: Streamline the fast-food ordering workflow from menu browsing to checkout.
 - **Enhance User Experience**: Provide an eye-catching Material Design UI with rich imagery, custom product cards, and responsive system window insets.
 - **Order Management**: Enable real-time cart calculation, order confirmation summaries, and past order history tracking.
@@ -21,7 +21,7 @@ The **Wicked Chicken App** is a fully functional Android mobile application deve
 
 ---
 
-## 🛠️ Development Tools
+## Development Tools
 - **IDE**: Android Studio
 - **Programming Language**: Java
 - **UI Toolkit**: XML Layouts, Material Components, CardView, ListView
@@ -30,7 +30,7 @@ The **Wicked Chicken App** is a fully functional Android mobile application deve
 
 ---
 
-## ✨ Main Features
+## Main Features
 - **Splash Screen**: Branded startup introduction (`SplashActivity`).
 - **Interactive Dashboard (`MainActivity`)**: Quick access to menu categories and shopping cart.
 - **Category & Product Catalog**: Browse items across Burgers, BBQ Meals, Fried Meals, Seafood, Sides, Drinks, Ice Cream, and Toppers.
@@ -41,7 +41,7 @@ The **Wicked Chicken App** is a fully functional Android mobile application deve
 
 ---
 
-## 🧱 Object-Oriented Programming (OOP) Concepts Demonstrated
+## Object-Oriented Programming (OOP) Concepts Demonstrated
 This application strictly adheres to Object-Oriented Programming principles:
 1. **Inheritance & Polymorphism**: 
    - `Product` acts as the base superclass.
@@ -53,7 +53,7 @@ This application strictly adheres to Object-Oriented Programming principles:
 
 ---
 
-## 🖼️ Menu Image Assets & Drawable Mapping
+## Menu Image Assets & Drawable Mapping
 The application includes high-resolution product and category image assets located in `app/src/main/res/drawable/`:
 
 | Product / Category Item | Drawable Asset Filename |
@@ -90,10 +90,10 @@ The application includes high-resolution product and category image assets locat
 
 ---
 
-## 🚀 Installation & Setup Instructions
+## Installation & Setup Instructions
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/your-username/WickedChickenApp.git
+   git clone https://github.com/mosengijepther-jpg/WickedChickenApp
    ```
 2. **Open in Android Studio**:
    - Launch Android Studio, select **Open**, and choose the project folder.
