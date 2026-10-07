@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Wicked Chicken</string>
+    <string name="welcome_message">Welcome to Wicked Chicken!</string>
+    <string name="view_categories">View Categories</string>
+    <string name="shopping_cart">Shopping Cart</string>
+    <string name="your_shopping_cart">Your Shopping Cart</string>
+    <string name="cart_total_default">Total: K0.00</string>
+    <string name="proceed_to_checkout">Proceed to Checkout</string>
+    <string name="select_category">Select a Category</string>
+    <string name="checkout">Checkout</string>
+    <string name="hint_enter_name">Enter your name</string>
+    <string name="hint_enter_phone">Enter your phone number</string>
+    <string name="hint_enter_location">Enter delivery location</string>
+    <string name="submit_order">Submit Order</string>
+    <string name="order_confirmed">Order Confirmed!</string>
+    <string name="order_summary_placeholder">Your order details will appear here.</string>
+    <string name="back_to_home">Back to Home</string>
+    <string name="products">Products</string>
+    <string name="product_name_placeholder">Product Name</string>
+    <string name="price_placeholder">K0.00</string>
+    <string name="add_to_cart">Add to Cart</string>
+    <string name="wicked_chicken">Wicked Chicken</string>
+    <string name="app_logo_desc">App Logo</string>
+    <string name="product_image_desc">Product Image</string>
+    <string name="clear_cart">Clear Cart</string>
+    <string name="view_past_orders">View Past Orders</string>
+    <string name="place_order">Place Order</string>
+    <string name="order_confirmation">Order Confirmation</string>
+    <string name="order_again">Order Again</string>
+    <string name="order_summary">Order Summary</string>
+    <string name="reorder_this">Reorder This</string>
+    <string name="share_order">Share Order</string>
+    <string name="save_as_pdf">Save as PDF</string>
+    <string name="delete_history">Delete History</string>
+</resources>

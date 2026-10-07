@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_cream"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="Checkout Details"
+        android:textColor="@color/primary_dark"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/nameInput"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:layout_marginBottom="12dp"
+        android:autofillHints="name"
+        android:background="@color/white"
+        android:hint="@string/hint_enter_name"
+        android:inputType="textPersonName"
+        android:paddingHorizontal="16dp"
+        android:textColor="@color/text_muted"
+        android:textColorHint="@color/text_muted"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/phoneInput"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:layout_marginBottom="12dp"
+        android:autofillHints="phone"
+        android:background="@color/white"
+        android:hint="@string/hint_enter_phone"
+        android:inputType="phone"
+        android:paddingHorizontal="16dp"
+        android:textColor="@color/text_muted"
+        android:textColorHint="@color/text_muted"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/addressInput"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:layout_marginBottom="20dp"
+        android:autofillHints="postalAddress"
+        android:background="@color/white"
+        android:hint="@string/hint_enter_location"
+        android:inputType="textPostalAddress"
+        android:paddingHorizontal="16dp"
+        android:textColor="@color/text_muted"
+        android:textColorHint="@color/text_muted"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/totalAmount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:padding="12dp"
+        android:text="@string/cart_total_default"
+        android:textColor="@color/primary_dark"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/placeOrderButton"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:backgroundTint="@color/accent_amber"
+        android:text="@string/place_order"
+        android:textColor="@color/text_dark"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:cornerRadius="12dp" />
+</LinearLayout>

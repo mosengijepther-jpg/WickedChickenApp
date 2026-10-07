@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_cream"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="12dp"
+        app:cardElevation="4dp">
+
+        <TextView
+            android:id="@+id/orderSummary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="4dp"
+            android:padding="16dp"
+            android:text="@string/order_summary"
+            android:textColor="@color/text_dark"
+            android:textSize="16sp" />
+    </androidx.cardview.widget.CardView>
+
+    <ListView
+        android:id="@+id/orderItemsList"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:textColor="@color/black"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="6dp" />
+
+    <Button
+        android:id="@+id/reorderButton"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="@color/accent_amber"
+        android:text="@string/reorder_this"
+        android:textColor="@color/text_dark"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:cornerRadius="10dp" />
+
+    <Button
+        android:id="@+id/shareButton"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="@color/card_background"
+        android:text="@string/share_order"
+        android:textColor="@color/primary_red"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:cornerRadius="10dp"
+        app:strokeColor="@color/primary_red"
+        app:strokeWidth="1.5dp" />
+
+    <Button
+        android:id="@+id/savePdfButton"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="@color/primary_dark"
+        android:text="@string/save_as_pdf"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:cornerRadius="10dp" />
+</LinearLayout>

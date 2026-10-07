@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_cream"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/categoryTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="@string/select_category"
+        android:textColor="@color/black"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <ListView
+        android:id="@+id/categoryListView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:textColor="@color/black"
+        android:divider="@color/background_cream"
+        android:dividerHeight="8dp" />
+
+    <Button
+        android:id="@+id/viewHistoryButton"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginTop="12dp"
+        android:backgroundTint="@color/primary_dark"
+        android:text="@string/view_past_orders"
+        android:textColor="@color/background_cream"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+</LinearLayout>

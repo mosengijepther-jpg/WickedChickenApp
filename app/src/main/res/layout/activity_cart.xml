@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_cream"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/cartTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:text="@string/your_shopping_cart"
+        android:textColor="@color/primary_red"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <ListView
+        android:id="@+id/cartListView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="8dp" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="12dp"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="12dp"
+        app:cardElevation="4dp">
+
+        <TextView
+            android:id="@+id/cartTotal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:text="@string/cart_total_default"
+            android:textColor="@color/text_dark"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:id="@+id/checkoutButton"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:backgroundTint="@color/accent_amber"
+        android:text="@string/proceed_to_checkout"
+        android:textColor="@color/text_dark"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:cornerRadius="10dp" />
+
+    <Button
+        android:id="@+id/clearCartButton"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="@color/card_background"
+        android:text="@string/clear_cart"
+        android:textColor="@color/primary_red"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:cornerRadius="10dp"
+        app:strokeColor="@color/primary_red"
+        app:strokeWidth="1.5dp" />
+
+</LinearLayout>

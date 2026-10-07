@@ -1,0 +1,12 @@
+<resources>
+    <style name="Theme.WickedChicken" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Customize your theme here -->
+        <item name="colorPrimary">@color/primary_red</item>
+        <item name="colorPrimaryVariant">@color/primary_dark</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/accent_amber</item>
+        <item name="colorSecondaryVariant">@color/accent_amber</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <item name="android:windowBackground">@color/background_cream</item>
+    </style>
+</resources>
